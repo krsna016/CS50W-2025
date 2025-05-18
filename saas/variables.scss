@@ -1,0 +1,24 @@
+// SCSS (Sass) is a CSS preprocessor that adds powerful features to regular CSS.
+// It allows you to use variables, nesting, mixins, functions, and more.
+// This helps keep your stylesheets organized, reusable, and easier to maintain.
+
+// Example features:
+// 1. Variables: Store values like colors or font sizes for reuse.
+// 2. Nesting: Write CSS selectors inside one another, mirroring HTML structure.
+// 3. Mixins: Create reusable chunks of code that can accept arguments.
+// 4. Functions: Perform calculations and return values for use in your styles.
+// 5. Partials and Imports: Split your CSS into multiple files for better organization.
+
+// SCSS files are compiled into standard CSS that browsers can understand.
+
+
+$color: blue;
+
+ul {
+    font-size: 14px;
+    color: $color;
+}
+ol {
+    font-size: 18px;
+    color: $color;
+}
